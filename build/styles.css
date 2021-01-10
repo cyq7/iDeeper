@@ -8,13 +8,12 @@ html {
 }
 body {
   background: #eee;
-  padding: 0 16px;
 }
 
 header {
-  background-color: #f5ba13;
-  margin: auto -16px;
-  padding: 16px 32px;
+  background-color: #fa8a3f;
+  width: 100%;
+  padding: 16px 36px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   position: relative;
 }
@@ -27,7 +26,7 @@ header h1 {
 }
 
 header h2 {
-  color: #f5cb24;
+  color: #fc9b24;
   font-family: "McLaren", cursive;
   font-weight: 200;
   font-size: 50px;
@@ -56,7 +55,13 @@ footer p {
   width: 240px;
   margin: 16px;
   float: left;
+  transition: 0.2s ease-in-out;
 }
+
+.note:hover {
+  transform: scale(1.02);
+}
+
 .note h1 {
   font-size: 1.1em;
   margin-bottom: 6px;
@@ -67,3 +72,49 @@ footer p {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f5ba13;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+form {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form input,
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
