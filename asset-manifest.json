@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/iDeeper/static/js/main.b877034d.chunk.js",
-    "main.js.map": "/iDeeper/static/js/main.b877034d.chunk.js.map",
+    "main.js": "/iDeeper/static/js/main.dcdd3581.chunk.js",
+    "main.js.map": "/iDeeper/static/js/main.dcdd3581.chunk.js.map",
     "runtime-main.js": "/iDeeper/static/js/runtime-main.0decbdaa.js",
     "runtime-main.js.map": "/iDeeper/static/js/runtime-main.0decbdaa.js.map",
     "static/js/2.d0e11cfb.chunk.js": "/iDeeper/static/js/2.d0e11cfb.chunk.js",
     "static/js/2.d0e11cfb.chunk.js.map": "/iDeeper/static/js/2.d0e11cfb.chunk.js.map",
     "index.html": "/iDeeper/index.html",
-    "precache-manifest.a4e1025075ba91240a3cf3d0d8b0093c.js": "/iDeeper/precache-manifest.a4e1025075ba91240a3cf3d0d8b0093c.js",
+    "precache-manifest.b79c070db5e74b5a20a60948133d89ae.js": "/iDeeper/precache-manifest.b79c070db5e74b5a20a60948133d89ae.js",
     "service-worker.js": "/iDeeper/service-worker.js"
   },
   "entrypoints": [
     "static/js/runtime-main.0decbdaa.js",
     "static/js/2.d0e11cfb.chunk.js",
-    "static/js/main.b877034d.chunk.js"
+    "static/js/main.dcdd3581.chunk.js"
   ]
 }
